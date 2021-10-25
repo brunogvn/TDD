@@ -1,0 +1,27 @@
+TDD KT - Bruno Giovane
+
+- Load Feed ao carregar tela: ✅✅✅
+	- Executar load do Feed ao carregar tela; ✅
+	- Exibir progress enquanto baixa Feed; ✅
+	- Remover progress ao terminar de baixar Feed; ✅
+
+- Load Feed ao fazer pull refresh: ✅✅✅
+	- Executar load do Feed ao realizar o pull refresh; ✅
+	- Exibir progress enquanto baixa Feed; ✅
+	- Remover progress ao terminar de baixar Feed; ✅
+
+- Exibe Feed Baixado:
+	- Ao baixar Feed, tabela carrega as células;
+	- As células renderizam o conteúdo do Feed;
+
+- Exibe erro:
+	- Ao falhar download do Feed, exibe erro;
+	- Esconde progress na falha;
+	- Ao clicar em "Retry" baixa feed novamente;
+	- Ao clicar em "Retry" exibe progress;
+	- Ao terminar o "Retry" esconde progress;
+
+- Clicar em uma célula:
+	- Envia evento para exibir detalhes
+
+- Tela de
